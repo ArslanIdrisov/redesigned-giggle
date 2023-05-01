@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, course, css, tags">
+    <meta name="discription" content="Это базовый курс по Html">
+</head>
+    <title>Html course</title>
+</head>
+<body>
+
+    <img src="C:\Users\Арслан\Desktop\work\photo_2023-04-29_12-32-21.jpg" alt="Арслан Идрисов"  width="200" >
+    <h1>Арслан Идрисов</h1>
+    <p>Мне 19 лет, я <strong>студент</strong> первого курса. Учусь в <em>МФЮА.</em></p>
+
+    <p><strong>Я</strong> хочу стать полноценным <strong>Frond-end разработчиком</strong> и начать работать в этой сфере</p>
+
+    <h4>Список социальных сетей :</h4>
+    <a href="https://www.instagram.com/Arslxn_id/" target="_blank">instagram</a>
+    |
+    <a href="https://tlgg.ru/Ars_log" target="_blank">Telegram</a>
+    |
+    <a href="https://www.youtube.com/channel/UCH4EqM8MlUZjDZjmCvpwMnA" target="_blank">Youtube</a>
+
+    <hr>
+
+    <H4>Мои хобби</H4>
+
+   <ol>
+    <li>Слушать музыку</li>
+    <li>Заниматься спортом</li>
+    <li>Готовить еду</li>
+    <li>Ходить на шоппинг</li>
+   </ol>
+      
+    <hr>
+
+    <h1>Опыт работы</h1>
+
+     <table>
+      <thead>
+       <tr>
+        <th>Название</th>
+        <th>Должность</th>
+        <th>Год</th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td>Островок</td>
+        <td>Оффицинант</td>
+        <td>2022-2023</td>
+       </tr> 
+       <tr>
+        <td>Puzle</td>
+        <td>Пост продажник</td>
+        <td>2022-2023</td>
+       </tr> 
+       <tr>
+         <td>Click</td>
+         <td>Специалист по работе с партнерами</td>
+         <td>2023</td>
+       </tr>
+     </tbody>
+   </table>
+
+    <hr>
+
+    <h1>Связаться со мной</h1>
+
+    <form>
+
+        <div>
+         <label for="text">Ваше имя:</label>
+         <input type="text" id="text">
+        </div>
+
+        <div>
+         <label for="email"> Ваш email:</label>
+         <input type="email" id="email" placeholder="Введите email">
+        </div>
+ 
+
+        <div>
+         <label for="number">Число</label>
+         <input type="number" id="number" min="0">
+        </div>
+   
+
+        <div>
+         <label for="range">Range</label>
+         <input type="range" id="range" min="0" max="10" step="2">
+        </div>
+
+         
+        <div>
+         <label for="date">Дата</label>
+         <input type="date" id="date" >
+        </div>
+
+
+        <div>
+         <label for="color">Цвет</label>
+         <input type="color" id="color" >
+        </div> 
+
+        
+        <div>
+         <label for="message">Сообщение</label>
+         <br>
+         <textarea id="message" cols="15" rows="10"></textarea>
+        </div>
+
+
+        <div>
+         <label for="sex">Пол</label>
+         <select id="sex">
+           <option value="male">Мужчина</option>
+           <option value="female" selected>Женщина</option>
+           <option value="other">Другое</option>
+         </select>
+        </div> 
+
+
+        <div>
+         <label>Количество работ</label>
+         <input type="radio" name="work"> 1
+         <input type="radio" name="work"> 2
+         <input type="radio" name="work"> 5
+         <input type="radio" name="work"> 10
+        </div>
+
+        <div>
+          <label>Любимая еда</label>
+          <input type="checkbox" name="food"> Картошка
+          <input type="checkbox" name="food"> Хлеб
+          <input type="checkbox" name="food"> Молюски
+          <input type="checkbox" name="food"> Яблоки
+        </div>
+   
+        <!-- <input type="submit" value="Отправить форму"> -->
+
+        <button type="submit">Отправить форму</button>
+
+        <hr>
+    </form>
+     
+          <h1>Blocks</h1>
+
+          <p style="border: 2px solid blue;">Lorem ipsum dolor sit amet consectetur,
+             adipisicing elit. Non architecto nisi sequi eos
+             sapiente facilis ipsam repellendus explicabo
+             atus sed necessitatibus, ab perferendis eaque
+             dolor vero in asperiores temporibus mollitia!
+          </p>
+          <p style="border: 2px solid black;">Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. <span style="border: 2px solid orangered;"> architecto nisi sequi eos
+            sapiente facilis ipsam repellendus explicabo
+            atus sed necessitatibus,</span> ab perferendis eaque
+            dolor vero in asperiores temporibus mollitia!
+         </p>
+         
+         <a href="#" style="border: 2px solid red;">This is a
+           link</a>
+         <a href="#" style="border: 2px solid green;">This is a
+           link 2</a>
+
+           <div>
+           <a href="#" style="border: 2px solid green;">This is a
+           link 3</a>
+          </div>
+
+          <hr>
+
+          <h1>Site</h1>
+
+          <div id="navigation">
+            <ul>
+              <li><a href="#">items 1</a></li>
+              <li><a href="#">items 2</a></li>
+              <li><a href="#">items 3</a></li>
+            </ul>
+          </div>
+          
+          <div id="Block 1" class="header">
+            <h2>Block 1</h2>
+            <p>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Esse aut nihil eveniet ab sunt in eum
+              facere nesciunt 
+              eligendi at!</p>
+          </div>
+
+          <div id="Block 2" class="header">
+            <h2>Block 2</h2>
+            <p>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Esse aut nihil eveniet ab sunt in eum
+              facere nesciunt 
+              eligendi at!</p>
+          </div>
+
+          <div id="found">
+            <ul>
+              <li><a href="#">Инстаграм</a></li>
+              <li><a href="#">Телеграм</a></li>
+              <li><a href="#">Ютуб</a></li>
+            </ul>
+          </div>
+          
+ </body>
+ </html>
